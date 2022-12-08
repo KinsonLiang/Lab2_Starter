@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CSE110 - FALL 2022 - Lab 2</title>
+    <title>CSE110 - Lab 2</title>
     <meta charset="UTF-8">
-    <link rel="prerender" type="image/x-icon" href="/screenshots/apple.png">
+    <link rel="icon" href="/screenshots/apple.png">
   </head>
 
   <body>
     <header>
       <h1>Meeting Minutes</h1>
-      <h2>Project Schedule</h2> 
-      <h3>Date: October 5, 2022</h3>
+      <h2>Group Project Schedule</h2> 
+      <h3>October 01, 2022</h3>
     </header>
 
     <hr>
 
+
     <section>
       <h3>Attendance</h3>
       <div>
-        <p> Attendance List:</p>
+        <p> Attendance <span>(Library)</span> :</p>
       </div>
       <ul>
         <li>Merson</li>
@@ -26,17 +27,17 @@
         <li>Andy</li>
       </ul>
       <div>
-        <p> Zoom Attendance List:</p>
+        <p> Virtual <span>(Zoom)</span> :</p>
       </div>
       <ul>
+        <li>Justin</li>
         <li>Kinson</li>
-        <li>Julia</li>
       </ul>
       <div>
-        <p> Absentee List:</p>
+        <p> Absent : <strong>(not here)</strong></p>
       <ul>
-        <li>Justin</li>
-        <li>Duc</li>
+        <li>Duo</li>
+        <li>Julia</li>
       </ul>
       </div>
     </section>
@@ -45,92 +46,61 @@
 
     <main>
       <section>
-        <h3>Agenda</h3>
-        <p>
-          The goal is to learn more about HTML and building your own website based on what we learned
-      </p>
+        <h3>Agenda 1</h3>
+        <p><b>Leader</b> : <i>Triston</i></p>
+        <p>Group contract</p>
+        <p><strong>Finish <em>group contract</em> follow by the TA suggestion</strong></p>
+      </section>
 
-      <section>
-        <h2>Things by Last Meeting</h2>
-        <h3>Kickoff Meeting</h3>
-        <p>
-            Introduce ourselves and make a plan about the project
-        </p>
-        <h2>This Meeting</h2>
-        <ol>
-            <li>
-                Create a document for team contracts
-                <img src="screenshots/Sample.png" alt="basic html page layout">
-            </li>
-            <li>
-                <details>
-                    <summary>Click this to get more details:</summary>
-                    <p>You got it</p>
-                </details>
-            </li>
-            <li>
-                Majority of people decided to do in-person meeting for group bonding
-            </li>
-            <li>Decided the team name and know well of each other</li>
-        </ol>
-
-        <h3><em><strong>Important</strong> reminders:</em> </h3>
-        <ul>
-            <li>Don't be <b>painfull<b></li>
-            <li>Please be <b>happy!<b></li>
-        </ul>
-    </section>
-
-    <br>
+      <hr>
 
         <form>
           <fieldset>
-            <legend>Survey</legend>
+            <legend>Survey Form</legend>
             <label for="name">Full Name:</label>
             <input type="text" id="name" name="name"><br><br>
 
             <label for="date">Date:</label>
             <input type="date" id="date" name="date"><br><br>
 
-            <p>Please select your major</p>
-            <input type="radio" id="CS" name="position" value="CS">
-            <label for="CS">CS</label><br>
-            <input type="radio" id="ECE" name="position" value="ECE">
-            <label for="ECE">ECE</label><br>
-            <input type="radio" id="Math" name="senior" value="Math">
-            <label for="Math">Math</label><br>
-            <input type="radio" id="Other" name="senior" value="Other">
-            <label for="Other">Other</label><br><br>
+            <p>Select your major.</p>
+            <input type="radio" id="math" name="position" value="math">
+            <label for="math">Math</label><br>
+            <input type="radio" id="cs" name="position" value="cs">
+            <label for="cs">CS</label><br>
+            <input type="radio" id="other" name="position" value="other">
+            <label for="other">Other</label><br><br>
 
-            <p>Please check all the language you learned before.</p>
-            <input type="checkbox" id="d1" name="language" value="java">
-            <label for="d1">Java</label><br>
-            <input type="checkbox" id="d2" name="language" value="c++">
-            <label for="d2">C++</label><br>
-            <input type="checkbox" id="d3" name="language" value="python">
-            <label for="d3">Python</label><br>
-            <input type="checkbox" id="d4" name="language" value="swift">
-            <label for="d4">Swift</label><br><br>
+            <p>Please select all the things you use code done before. </p>
+            <input type="checkbox" id="d1" name="things" value="videogames">
+            <label for="d1">Video Games</label><br>
+            <input type="checkbox" id="d2" name="things" value="pcapp">
+            <label for="d2">PC Software</label><br>
+            <input type="checkbox" id="d3" name="things" value="mobilapp">
+            <label for="d3">Mobil App</label><br>
+            <input type="checkbox" id="d4" name="things" value="linuxapp">
+            <label for="d4">Linux Software</label><br><br>
 
-            <label for="tool">Choose your favorite tools:</label>
-            <input list="tools" id="tool" name="tool">
-            <datalist id="tools">
-              <option value="Xcode">
-              <option value="VScode">
-              <option value="CodeBlock">
-              <option value="Visual Studio">
-              <option value="Terminal">
+            <label for="language">Select a favorite programming language:</label>
+            <input list="languages" id="language" name="language">
+            <datalist id="languages">
+              <option value="C++">
+              <option value="Java">
+              <option value="Python">
+              <option value="Go">
+              <option value="Swift">
             </datalist><br><br>
 
-            <label for="field">Choose a field you want to learn deep</label>   
-            <select id="field" name="field">
-              <option value="Deep Learning">Deep Learning</option>
-              <option value="Computer Vision">Computer Vision</option>
-              <option value="Gaming Development">Gaming Development</option>
+            <label for="tool">Slect a favorite program tool:</label>   
+            <select id="tool" name="tool">
+              <option value="Xcode">Xcode</option>
+              <option value="VScode">Vscode</option>
+              <option value="Visual Studio">Visual Studio</option>
+              <option value="Codeblock">Codeblock</option>
             </select><br><br> 
 
-            <h4>Additional suggestions</h4>
-            <textarea id="extra_space" rows="5" cols="50">You can wirte here if you have other things to say</textarea> <br><br>
+            <h4>Additionals</h4>
+            <textarea id="extra_space" rows="5" cols="50">You could type here for anything else.</textarea> <br><br>
 
             <button type="button">Submit</button>
           </fieldset>
@@ -141,8 +111,7 @@
     <hr>
 
     <section>
-      <h3>Media</h3>
-
+      <h3>Logs</h3>
       <h4>Audio</h4>
       <audio controls>
         <source src="screenshots/FF.mp3" type="audio/mp3">
@@ -154,18 +123,19 @@
       </video>
 
       <h4>Image</h4>
-      <img src="screenshots/apple.png" alt="PNG Image">
+      <img src="screenshots/apple.png" alt="Meeting Image">
     </section><br><br>
 
     <hr>
     <hr>
 
     <footer>
-      <h3>Links</h3>
+      <h3>Additional Links</h3>
       <nav>
-        <a href="https://www.google.com/">Google</a><br>
+        <a href="https://www.google.com">Google</a><br>
+        
       </nav>
-      <p><em>Kinson's simple website</em></p>
+      <p><em>Simple website</em></p>
     </footer>
   </body>
 </html>
